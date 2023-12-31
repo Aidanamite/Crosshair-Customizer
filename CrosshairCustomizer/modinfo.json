@@ -1,0 +1,208 @@
+{
+  "name": "Crosshair Customizer",
+  "author": "Aidanamite",
+  "description": "Adds a few different options for customizing the crosshair",
+  "version": "1.1.0",
+  "license": "GNU AGPLv3",
+  "icon": "icon.png",
+  "banner": "banner.jpg",
+  "gameVersion": "1.0",
+  "requiredByAllPlayers": false,
+  "updateUrl": "https://www.raftmodding.com/api/v1/mods/crosshair-customizer/version.txt",
+  "isModPermanent": false,
+  "excludedFiles": [],
+  "modSettings": [
+    {
+      "type": "input",
+      "text": "Overall Crosshair Scale",
+      "name": "scale",
+      "mode": "DecimalNumber",
+      "default": "1"
+    },
+    {
+      "type": "input",
+      "text": "Action Progress Bar",
+      "name": "loadingImage",
+      "default": ""
+    },
+    {
+      "type": "button",
+      "text": "Browse",
+      "name": "browse_loadingImage"
+    },
+    {
+      "type": "input",
+      "text": "Progress Bar Scale",
+      "name": "scale_loadingImage",
+      "mode": "DecimalNumber",
+      "default": "1"
+    },
+    {
+      "type": "combobox",
+      "text": "Action Progress Bar Fill Mode",
+      "name": "loadingFill",
+      "default": "Radial360 Top CW",
+      "values": [
+        "Horizontal Left-to-Right",
+        "Horizontal Right-to-Left",
+        "Vertical Top-to-Bottom",
+        "Vertical Bottom-to-Top",
+        "Radial90 TopLeft CW",
+        "Radial90 TopLeft ACW",
+        "Radial90 TopRight CW",
+        "Radial90 TopRight ACW",
+        "Radial90 BottomLeft CW",
+        "Radial90 BottomLeft ACW",
+        "Radial90 BottomRight CW",
+        "Radial90 BottomRight ACW",
+        "Radial180 Left CW",
+        "Radial180 Left ACW",
+        "Radial180 Right CW",
+        "Radial180 Right ACW",
+        "Radial180 Top CW",
+        "Radial180 Top ACW",
+        "Radial180 Bottom CW",
+        "Radial180 Bottom ACW",
+        "Radial360 Left CW",
+        "Radial360 Left ACW",
+        "Radial360 Right CW",
+        "Radial360 Right ACW",
+        "Radial360 Top CW",
+        "Radial360 Top ACW",
+        "Radial360 Bottom CW",
+        "Radial360 Bottom ACW"
+      ]
+    },
+    {
+      "type": "input",
+      "text": "Crosshair - Default",
+      "name": "crosshairDefault",
+      "default": ""
+    },
+    {
+      "type": "button",
+      "text": "Browse",
+      "name": "browse_crosshairDefault"
+    },
+    {
+      "type": "input",
+      "text": "Default Crosshair Scale",
+      "name": "scale_crosshairDefault",
+      "mode": "DecimalNumber",
+      "default": "1"
+    },
+    {
+      "type": "input",
+      "text": "Crosshair - Mineable",
+      "name": "crosshairMineable",
+      "default": ""
+    },
+    {
+      "type": "button",
+      "text": "Browse",
+      "name": "browse_crosshairMineable"
+    },
+    {
+      "type": "input",
+      "text": "Mineable Crosshair Scale",
+      "name": "scale_crosshairMineable",
+      "mode": "DecimalNumber",
+      "default": "1"
+    },
+    {
+      "type": "input",
+      "text": "Crosshair - Shovel",
+      "name": "crosshairShovelable",
+      "default": ""
+    },
+    {
+      "type": "button",
+      "text": "Browse",
+      "name": "browse_crosshairShovelable"
+    },
+    {
+      "type": "input",
+      "text": "Shovel Crosshair Scale",
+      "name": "scale_crosshairShovelable",
+      "mode": "DecimalNumber",
+      "default": "1"
+    },
+    {
+      "type": "input",
+      "text": "Crosshair - Shear",
+      "name": "crosshairShearable",
+      "default": ""
+    },
+    {
+      "type": "button",
+      "text": "Browse",
+      "name": "browse_crosshairShearable"
+    },
+    {
+      "type": "input",
+      "text": "Shear Crosshair Scale",
+      "name": "scale_crosshairShearable",
+      "mode": "DecimalNumber",
+      "default": "1"
+    },
+    {
+      "type": "input",
+      "text": "Crosshair - Bucket",
+      "name": "crosshairBucketable",
+      "default": ""
+    },
+    {
+      "type": "button",
+      "text": "Browse",
+      "name": "browse_crosshairBucketable"
+    },
+    {
+      "type": "input",
+      "text": "Bucket Crosshair Scale",
+      "name": "scale_crosshairBucketable",
+      "mode": "DecimalNumber",
+      "default": "1"
+    },
+    {
+      "type": "input",
+      "text": "Crosshair - Machete",
+      "name": "crosshairMacheteable",
+      "default": ""
+    },
+    {
+      "type": "button",
+      "text": "Browse",
+      "name": "browse_crosshairMacheteable"
+    },
+    {
+      "type": "input",
+      "text": "Machete Crosshair Scale",
+      "name": "scale_crosshairMacheteable",
+      "mode": "DecimalNumber",
+      "default": "1"
+    },
+    {
+      "type": "input",
+      "text": "Crosshair - Choppable",
+      "name": "crosshairChoppable",
+      "default": ""
+    },
+    {
+      "type": "button",
+      "text": "Browse",
+      "name": "browse_crosshairChoppable"
+    },
+    {
+      "type": "input",
+      "text": "Choppable Crosshair Scale",
+      "name": "scale_crosshairChoppable",
+      "mode": "DecimalNumber",
+      "default": "1"
+    },
+    {
+      "type": "button",
+      "text": "Reset Settings To Defaults",
+      "name": "reset"
+    }
+  ]
+}
