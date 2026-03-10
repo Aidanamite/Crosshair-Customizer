@@ -278,9 +278,12 @@ namespace CrosshairCustomizer
             Main.UpdateLoading(Main.settings);
             Patch_SetCrosshairImage.CheckSprite();
             Main.UpdateScale();
-            Main.originalLoadingSprite = ComponentManager<CanvasHelper>.Value.removeBlockRadialImage.sprite;
-            if (Main.loadingSprite?.Sprite)
-                ComponentManager<CanvasHelper>.Value.removeBlockRadialImage.sprite = Main.loadingSprite.Sprite;
+            if (ComponentManager<CanvasHelper>.Value)
+            {
+                Main.originalLoadingSprite = ComponentManager<CanvasHelper>.Value.removeBlockRadialImage.sprite;
+                if (Main.loadingSprite?.Sprite)
+                    ComponentManager<CanvasHelper>.Value.removeBlockRadialImage.sprite = Main.loadingSprite.Sprite;
+            }
         }
     }
 
